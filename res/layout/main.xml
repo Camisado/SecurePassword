@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text='"Ни один пароль не будет забыт!"'
+                    android:id="@+id/logoText" android:layout_gravity="center_horizontal" android:padding="10dp"
+                    android:gravity="center"/>
+            <Space
+                    android:layout_width="20px"
+                    android:layout_height="50px"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Список паролей"
+                    android:id="@+id/listButton" android:layout_gravity="center_horizontal"/>
+            <Space
+                    android:layout_width="20px"
+                    android:layout_height="50px"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Добавить новый пароль"
+                    android:id="@+id/addButton" android:layout_gravity="center_horizontal"/>
+            <Space
+                    android:layout_width="20px"
+                    android:layout_height="50px"
+                    />
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Синхронизировать"
+                    android:id="@+id/syncButton" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
